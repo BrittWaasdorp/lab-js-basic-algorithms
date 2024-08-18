@@ -18,3 +18,16 @@ if (hacker1.length >> hacker2.length){
 }
 
 // Iteration 3: Loops
+
+let SpellName = "";
+for (let i == 0; i < hacker1.length; i++){
+  SpellName += "hacker1[i]";
+}
+console.log(SpellName);
+
+let ReverseName = "";
+for (let i == 0; i < hacker1.length; i++){
+  ReverseName += "hacker1[length - 1 - i]";
+}
+console.log(ReverseName);
+
